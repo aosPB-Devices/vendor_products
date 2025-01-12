@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+          
+  <project path="device/xiaomi/miatoll" name="paper-playground/device_xiaomi_miatoll" remote="github" revision="15" />
+  <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="github" revision="15" clone-depth="1" />
+  <project path="vendor/xiaomi/miatoll" name="clarencekopitiam/vendor_xiaomi_miatoll" remote="github" revision="15" clone-depth="1" />
+</manifest>

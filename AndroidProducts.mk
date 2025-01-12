@@ -5,7 +5,5 @@
 #
 
 # Product Makefiles
-PRODUCT_MAKEFILES +=
-
-# Lunch targets
-COMMON_LUNCH_CHOICES +=
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/miatoll/aospb_miatoll.mk
