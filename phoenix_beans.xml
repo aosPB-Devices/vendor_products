@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+          
+  <project path="device/xiaomi/phoenix" name="aosPB-Devices/android_device_xiaomi_phoenix" remote="github" revision="15.1" />
+  <project path="device/xiaomi/sm6150-common" name="aosPB-Devices/android_device_xiaomi_sm6150-common" remote="github" revision="15.1" />
+  <project path="kernel/xiaomi/sm6150" name="aosPB-Devices/android_kernel_xiaomi_sm6150" remote="github" revision="15.1" clone-depth="1" />
+  <project path="vendor/xiaomi/phoenix" name="aosPB-Devices/proprietary_vendor_xiaomi_phoenix" remote="github" revision="15.1" clone-depth="1" />
+  <project path="vendor/xiaomi/sm6150-common" name="aosPB-Devices/proprietary_vendor_xiaomi_sm6150-common" remote="github" revision="15.1" clone-depth="1" />
+
+  <!--HW xiaomi-->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1" />
+</manifest>
