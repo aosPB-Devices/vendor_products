@@ -8,8 +8,16 @@
   <remote name="github"
           fetch="https://github.com/" />
           
-  <project path="device/xiaomi/miatoll" name="aosPB-Devices/device_xiaomi_miatoll" remote="github" revision="15.1" />
-  <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="github" revision="15" clone-depth="1" />
-  <project path="vendor/xiaomi/miatoll" name="clarencekopitiam/vendor_xiaomi_miatoll" remote="github" revision="15" clone-depth="1" />
-  <project path="hardware/xiaomi" name="ProjectPixelage/android_hardware_xiaomi" remote="github" revision="15" />
+  <project path="device/xiaomi/miatoll" name="paper-playground/device_xiaomi_miatoll" remote="github" revision="15.1" />
+  <project path="device/xiaomi/sm6250-common" name="paper-playground/device_xiaomi_sm6250-common" remote="github" revision="15.1" />
+  
+  <project path="kernel/xiaomi/sm6250" name="paper-playground/kernel_xiaomi_sm6250" remote="github" revision="15.1" clone-depth="1" />
+  
+  <project path="vendor/xiaomi/miatoll" name="paper-playground/vendor_xiaomi_miatoll" remote="github" revision="15.1" clone-depth="1" />
+  <project path="vendor/xiaomi/sm6250-common" name="paper-playground/vendor_xiaomi_sm6250-common" remote="github" revision="15.1" clone-depth="1" />
+  <project path="vendor/xiaomi/miuicamera-miatoll" name="paper-playground/vendor_xiaomi_miuicamera-miatoll" remote="github" revision="15.1" clone-depth="1" />
+
+  <project path="hardware/xiaomi" name="paper-playground/hardware_xiaomi" remote="github" revision="15.1" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-22.0" />
+
 </manifest>
