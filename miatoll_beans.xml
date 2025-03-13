@@ -17,7 +17,7 @@
   <project path="vendor/xiaomi/sm6250-common" name="paper-playground/vendor_xiaomi_sm6250-common" remote="github" revision="15.1" clone-depth="1" />
   <project path="vendor/xiaomi/miuicamera" name="paper-playground/vendor_xiaomi_miuicamera-miatoll" remote="github" revision="15.1" clone-depth="1" />
 
-  <project path="hardware/xiaomi" name="paper-playground/hardware_xiaomi" remote="github" revision="15.1" />
+  <project path="hardware/xiaomi" name="ihsanulrahman/hardware_xiaomi" remote="github" revision="15" />
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-22.0" />
 
 </manifest>
