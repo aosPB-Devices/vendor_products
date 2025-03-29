@@ -15,5 +15,5 @@
   <project path="vendor/xiaomi/sm6150-common" name="aosPB-Devices/proprietary_vendor_xiaomi_sm6150-common" remote="github" revision="15.1" clone-depth="1" />
 
   <!--HW xiaomi-->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
 </manifest>
