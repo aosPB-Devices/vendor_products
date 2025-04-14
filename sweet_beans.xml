@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com/" />
+          
+  <project path="device/xiaomi/sweet" name="paper-playground/device_xiaomi_sweet" remote="github" revision="15.2" />
+  <project path="device/xiaomi/sm6150-common" name="paper-playground/device_xiaomi_sm6150-common" remote="github" revision="15.2" />
+
+  <project path="kernel/xiaomi/sm6150" name="PixelOS-Devices/kernel_xiaomi_sm6150" remote="github" revision="fifteen" clone-depth="1" />
+  
+  <project path="vendor/xiaomi/sweet" name="PixelOS-Devices/vendor_xiaomi_sweet" remote="github" revision="fifteen" clone-depth="1" />
+  <project path="vendor/xiaomi/sm6150-common" name="PixelOS-Devices/vendor_xiaomi_sm6150-common" remote="github" revision="fifteen" clone-depth="1" />
+
+  <project path="device/xiaomi/miuicamera-sweet" name="PixelOS-Devices/device_xiaomi_miuicamera-sweet" remote="github" revision="fifteen" clone-depth="1" />
+  <project path="vendor/xiaomi/miuicamera-sweet" name="PixelOS-Devices/vendor_xiaomi_miuicamera-sweet" remote="github" revision="fifteen" clone-depth="1" />
+
+  <project path="hardware/xiaomi" name="PixelOS-AOSP/hardware_xiaomi" remote="github" revision="fifteen" />
+
+</manifest>
