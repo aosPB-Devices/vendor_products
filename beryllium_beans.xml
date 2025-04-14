@@ -8,12 +8,12 @@
   <remote name="github"
           fetch="https://github.com/" />
           
-  <project path="device/xiaomi/beryllium" name="aosPB-Devices/android_device_xiaomi_beryllium" remote="github" revision="15.1" />
-  <project path="device/xiaomi/sdm845-common" name="aosPB-Devices/android_device_xiaomi_sdm845-common" remote="github" revision="15.1" />
-  <project path="kernel/xiaomi/sdm845" name="aosPB-Devices/android_kernel_xiaomi_sdm845" remote="github" revision="15.1" clone-depth="1" />
-  <project path="vendor/xiaomi/beryllium" name="aosPB-Devices/proprietary_vendor_xiaomi_beryllium" remote="github" revision="15.1" clone-depth="1" />
-  <project path="vendor/xiaomi/sdm845-common" name="aosPB-Devices/proprietary_vendor_xiaomi_sdm845-common" remote="github" revision="15.1" clone-depth="1" />
+  <project path="device/xiaomi/beryllium" name="aosPB-Devices/android_device_xiaomi_beryllium" remote="github" revision="15.2" />
+  <project path="device/xiaomi/sdm845-common" name="aosPB-Devices/android_device_xiaomi_sdm845-common" remote="github" revision="15.2" />
+  <project path="kernel/xiaomi/sdm845" name="aosPB-Devices/android_kernel_xiaomi_sdm845" remote="github" revision="15.2" clone-depth="1" />
+  <project path="vendor/xiaomi/beryllium" name="aosPB-Devices/proprietary_vendor_xiaomi_beryllium" remote="github" revision="15.2" clone-depth="1" />
+  <project path="vendor/xiaomi/sdm845-common" name="aosPB-Devices/proprietary_vendor_xiaomi_sdm845-common" remote="github" revision="15.2" clone-depth="1" />
 
   <!--HW xiaomi-->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.2" />
 </manifest>
