@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+
+  <remote name="github"
+    fetch="https://github.com/" />
+
+  <remote  name="aosp"
+    fetch="https://android.googlesource.com/" />
+          
+  <project path="device/google/pantah" name="ZirgomHaidar/device_google_pantah" remote="github" revision="aospb" />
+  <project path="device/google/gs201" name="ZirgomHaidar/device_google_gs201" remote="github" revision="aospb" />
+
+  <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-22.2" />
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-22.2" />
+  <project path="vendor/google/panther" name="TheMuppets/proprietary_vendor_google_panther" remote="github" revision="lineage-22.2" clone-depth="1" />
+
+  <project path="device/google/pantah-kernels/6.1" name="device/google/pantah-kernels/6.1" remote="aosp" revision="android-15.0.0_r30" clone-depth="1" />
+
+  <project path="packages/apps/PixelParts" name="Evolution-X-Devices/packages_apps_PixelParts" remote="github" revision="vic" />
+
+</manifest>
